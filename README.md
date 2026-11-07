@@ -40,19 +40,19 @@ pkg install python git -y
 **Langkah 3 - Unduh Giga OSINT**
 
 ```bash
-git clone https://github.com/XyasZor/Giga-OSINT.git
+git clone https://github.com/XyasZor/gs.git
 ```
 
 **Langkah 4 - Masuk ke folder tools**
 
 ```bash
-cd Giga-OSINT
+cd gs
 ```
 
 **Langkah 5 - Jalankan**
 
 ```bash
-python giga_osint.py
+python main.py
 ```
 
 **Langkah 6 (opsional) - Izinkan akses galeri dan file**
@@ -95,13 +95,13 @@ sudo apt install -y python3 python3-pip python3-venv git
 **Langkah 3 - Unduh Giga OSINT**
 
 ```bash
-git clone https://github.com/XyasZor/Giga-OSINT.git
+git clone https://github.com/XyasZor/gs.git
 ```
 
 **Langkah 4 - Masuk ke folder tools**
 
 ```bash
-cd Giga-OSINT
+cd gs
 ```
 
 **Langkah 5 - Buat lingkungan virtual (disarankan)**
@@ -118,7 +118,7 @@ Tanda berhasil: di awal baris terminal muncul `(.venv)`.
 **Langkah 6 - Jalankan**
 
 ```bash
-python3 giga_osint.py
+python3 main.py
 ```
 
 **Langkah 7 (opsional) - Buat perintah singkat `giga`**
@@ -163,7 +163,7 @@ Jika sebuah fitur butuh tools tambahan, Giga OSINT akan bertanya **y/n** terlebi
 ## Memperbarui
 
 ```bash
-cd Giga-OSINT
+cd gs
 git pull
 ```
 
