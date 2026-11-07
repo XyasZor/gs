@@ -68,11 +68,11 @@ Tekan **Izinkan** pada jendela yang muncul. Setelah itu file HP bisa diakses lew
 **Langkah 7 (opsional) - Buat perintah singkat `giga`**
 
 ```bash
-echo "alias giga='python ~/Giga-OSINT/giga_osint.py'" >> ~/.bashrc
+echo "alias gs='python ~/gs/main.py'" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-Selanjutnya cukup ketik `giga` dari folder mana pun.
+Selanjutnya cukup ketik `gs` dari folder mana pun.
 
 > Termux tidak memakai `sudo`. Untuk memasang paket gunakan `pkg install nama_paket`.
 
@@ -121,14 +121,14 @@ Tanda berhasil: di awal baris terminal muncul `(.venv)`.
 python3 main.py
 ```
 
-**Langkah 7 (opsional) - Buat perintah singkat `giga`**
+**Langkah 7 (opsional) - Buat perintah singkat `gs`**
 
 ```bash
-echo "alias giga='~/.venv/bin/python3 ~/Giga-OSINT/giga_osint.py'" >> ~/.bashrc
+echo "alias gs='~/.venv/bin/python3 ~/gs/main.py'" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-Selanjutnya cukup ketik `giga` dari folder mana pun, tanpa perlu mengaktifkan venv lagi.
+Selanjutnya cukup ketik `gs` dari folder mana pun, tanpa perlu mengaktifkan venv lagi.
 
 > Jangan menjalankan Giga OSINT sebagai root kecuali terpaksa. Jika perintah pemasangan tool meminta hak admin, tambahkan `sudo` di depan perintah yang ditampilkan.
 
